@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moyale View Cyber – Professional Cyber Services Migosi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background: linear-gradient(135deg,#020617,#0f172a);
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 60px;
+    background:rgba(15,118,110,0.9);
+    backdrop-filter:blur(10px);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav img{height:55px;border-radius:10px;}
+
+nav ul{display:flex;gap:30px;list-style:none;}
+nav a{color:white;text-decoration:none;font-weight:600;transition:0.3s;}
+nav a:hover{color:#22d3ee;}
+
+.hero{
+    text-align:center;
+    padding:120px 20px 100px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{opacity:0.85;}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 32px;
+    border-radius:40px;
+    background:linear-gradient(45deg,#14b8a6,#06b6d4);
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.section{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.card{
+    background:rgba(30,41,59,0.7);
+    padding:30px;
+    border-radius:25px;
+    backdrop-filter:blur(12px);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.location iframe{
+    width:100%;
+    max-width:1000px;
+    height:400px;
+    border-radius:30px;
+    margin-top:40px;
+}
+
+.contact p{font-size:18px;}
+
+.whatsapp{
+    position:fixed;
+    bottom:35px;
+    right:35px;
+    background:#16a34a;
+    padding:18px;
+    border-radius:50%;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+footer{
+    text-align:center;
+    padding:35px;
+    background:#020617;
+}
+
+@media(max-width:768px){
+    nav{padding:15px 20px;}
+    .hero h1{font-size:40px;}
+    nav ul{display:none;}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <img src="logo.png" alt="Moyale View Cyber Logo">
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Moyale View Cyber</h1>
+    <p>Migosi near Ward Office | Professional Cyber Café Services</p>
+    <p>📞 0702239169 | 0738051190 (WhatsApp)</p>
+    <a class="btn" href="https://wa.me/254702239169">Chat on WhatsApp 💬</a>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Premium Services</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>🖨 Printing</h3>
+            <p>Black & White — From Ksh 10</p>
+            <p>Colored — From Ksh 30</p>
+        </div>
+
+        <div class="card">
+            <h3>📄 Photocopy & Lamination</h3>
+            <p>A4 Photocopy — From Ksh 5</p>
+            <p>Lamination — From Ksh 50</p>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Online Applications</h3>
+            <p>KRA Returns — From Ksh 200</p>
+            <p>KUCCPS / HELB Services</p>
+            <p>eTIMS Assistance</p>
+        </div>
+    </div>
+</section>
+
+<section class="section location" id="location">
+    <h2>📍 Visit Us – Migosi Near Ward Office</h2>
+
+    <iframe
+        src="https://www.google.com/maps?q=Migosi+Ward+Office&output=embed"
+        loading="lazy">
+    </iframe>
+</section>
+
+<section class="section contact" id="contact">
+    <h2>📞 Contact Moyale View Cyber</h2>
+    <p>0702239169</p>
+    <p>0738051190</p>
+    <p>moyalewiewcyber@gmail.com</p>
+</section>
+
+<footer>
+    © <script>document.write(new Date().getFullYear())</script> Moyale View Cyber | Migosi Kisumu Kenya
+</footer>
+
+<a class="whatsapp" href="https://wa.me/254702239169" target="_blank">💬</a>
+
+</body>
+</html>
